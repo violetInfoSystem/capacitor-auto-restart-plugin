@@ -1,0 +1,1 @@
+// Java plugin file placeholder

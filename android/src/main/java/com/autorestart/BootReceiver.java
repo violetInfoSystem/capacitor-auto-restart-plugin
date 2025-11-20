@@ -1,0 +1,1 @@
+// Java boot receiver file placeholder

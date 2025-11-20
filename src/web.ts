@@ -1,0 +1,1 @@
+export class AutoRestartWeb { async start(){ return { value: "not-available" } } async stop(){ return { value: "not-available" } } }
