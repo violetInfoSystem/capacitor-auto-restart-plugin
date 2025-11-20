@@ -1,1 +1,25 @@
-{"name":"capacitor-auto-restart","version":"0.1.0","main":"dist/index.js"}
+{
+  "name": "capacitor-auto-restart",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "android"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@capacitor/core": "^5.0.0"
+  },
+  "keywords": [
+    "capacitor",
+    "android",
+    "foreground-service",
+    "auto-restart"
+  ],
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
