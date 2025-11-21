@@ -10,6 +10,14 @@
   "scripts": {
     "build": "tsc -p tsconfig.json"
   },
+  "capacitor": {
+    "plugins": {
+      "AutoRestart": {
+        "className": "AutoRestartPlugin",
+        "package": "com.yourcompany.autorestart"
+      }
+    }
+  },
   "dependencies": {
     "@capacitor/core": "^5.0.0"
   },
